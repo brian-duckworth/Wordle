@@ -19,7 +19,7 @@ guess <- "CRATE"
 tries <- 0
 
 exact <- "....."
-included <- ''
+included <- '' 
 excluded <- ''
 wrongSpot <- c('','','','','')
 progressBars <- c()
