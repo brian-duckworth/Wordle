@@ -12,8 +12,8 @@ find_answer_automatically = FALSE
 select_answer_method <- "nyt"  # input OR random OR nyt
 input_answer <- "SCARF"
 
-answer_list <- (read.csv('/Users/brian/R/Projects/Wordle/answer_list.csv', header = FALSE))[[1]] # The Wordle answer list.
-allowed_words_with_freq <- read.csv('/Users/brian/R/Projects/Wordle/allowed_words_with_freq.csv', header = TRUE)
+answer_list <- (read.csv('/Users/brian/R/Projects/Wordle/data/answer_list.csv', header = FALSE))[[1]] # The Wordle answer list.
+allowed_words_with_freq <- read.csv('/Users/brian/R/Projects/Wordle/data/allowed_words_with_freq.csv', header = TRUE)
 candidateWordlist <- allowed_words_with_freq$word
 
 guess <- "CRATE"
