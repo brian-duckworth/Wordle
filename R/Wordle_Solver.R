@@ -8,6 +8,7 @@ library(crayon)
 #### VARIABLES ####  
 
 find_answer_automatically = FALSE
+
 select_answer_method <- "nyt"  # input OR random OR nyt
 input_answer <- "SCARF"
 
